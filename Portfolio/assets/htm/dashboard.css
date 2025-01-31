@@ -1,0 +1,97 @@
+body, h1, h2, h3, p, table, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.dashboard-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+.welcome-section {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.welcome-section h2 {
+    font-size: 20px;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.student-info {
+    padding: 20px;
+}
+
+.student-info h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #007BFF;
+}
+
+.student-info table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.student-info table th,
+.student-info table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.student-info table th {
+    background-color: #f7f9fc;
+    color: #555;
+}
+
+.action-buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.action-buttons button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.action-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.action-buttons button:active {
+    transform: scale(0.98);
+}
